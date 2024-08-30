@@ -9,9 +9,9 @@ export default {
     },
     extend: {
       colors: {
-        background: 'rgba(255 253 246)',
-        'font-main': 'rgba(0 0 0)',
-        'font-context': 'rgba(81 81 81)',
+        background: '#FFFDF6',
+        'font-main': '#000000',
+        'font-context': '#515151',
       },
       fontFamily:  {
         inter: ['inter', 'serif'],
@@ -19,7 +19,12 @@ export default {
       display: ['lt-md'],
     },
     screens: {
-      'lt-md': {'max': '767px'}
+      'lt-md': {'max': '767px'},
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
     }
   },
   plugins: [],
