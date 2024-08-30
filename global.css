@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  body {
+    @apply font-inter bg-primary text-white leading-7; 
+  }
+} */
+
+/* .light {
+  --background: 255 253 246;
+  --font-main: 0 0 0;
+  --font-context: 81 81 81; 
+  --nav: 81 81 81;
+  
+  background: rgba(var(--background));
+}
+
+.dark {
+  --background: 23 23 21;
+  --font-main: 255 253 246;
+  --font-context: 176 175 172;
+  --nav: 176 175 172;
+  
+  background: rgba(var(--background));
+} */

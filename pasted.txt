@@ -1,0 +1,20 @@
+          <Link to="/Projects" title="Projects">
+            <span>Projects</span>
+            <RiLightbulbLine className="lt-md:block hidden text-xl" />
+          </Link>
+
+          <Link to="/Timeline" title="Timeline">
+            <span className="lt-md:hidden ml-20">Timeline</span>
+            <RiTimelineView className="lt-md:block hidden text-xl"/>
+          </Link>
+
+          <Link to="/Resume" title="Resume">
+            <span className="lt-md:hidden ml-20">Resume</span>
+            <RiArticleLine className="lt-md:block hidden text-xl" />
+          </Link>
+
+          <Link to="/Contact" title="Contact">
+            <span className="lt-md:hidden ml-20">Contact</span>
+            <RiContactsFill className="lt-md:block hidden text-xl"/>
+
+          </Link>
