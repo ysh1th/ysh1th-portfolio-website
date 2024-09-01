@@ -16,7 +16,7 @@ export default {
         nav: 'F5F2E7'
       },
       fontFamily:  {
-        inter: ['inter', 'serif'],
+        inter: ['Inter', 'serif'],
       },
       fontSize: {
         '80px': '15px',
