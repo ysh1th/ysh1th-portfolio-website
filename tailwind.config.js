@@ -29,6 +29,7 @@ export default {
       },
       padding: {
         '1.5': '0.375rem',
+        '96': '96px',
       },
       display: ['lt-md'],
     },

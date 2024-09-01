@@ -37,3 +37,55 @@
                 <FaInstagram className='dark:text-white'></FaInstagram>
               </a>
             </li>
+
+
+
+
+
+
+mvp nav bar
+// import React from 'react'
+// import Profile from '../assets/Profile.png'
+// import { Link } from 'react-router-dom';
+
+// import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+// import { RiTwitterXLine, RiArticleLine } from 'react-icons/ri';
+
+
+// const Navbar = () => {
+//   return (
+//     // <nav className="mb-3 lg:mb-28 flex items-center justify-between py-2">
+//     //   <div className="flex flex-shrink-0 item-center">
+//     //     <img src={Profile} alt="Logo" className="mx-2 w-10 mt-2" />
+//     //   </div>
+//     //   <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+//     //     <FaGithub />
+//     //     <FaLinkedin />
+//     //     <RiTwitterXLine />
+//     //     <FaInstagram />
+//     //   </div>
+//     // </nav>
+
+//     <div>
+//       <nav className="fixed left-0 right-0 top-4 z-50">
+//         <div className="mx-auto flex items-center max-w-xl rounded-lg bg-black-20 py-1 5 backdrop-blur-lg lt-md:hidden">
+//           <div className='flex justify-between gap-6'>
+//             <Link to="/" title="Yash1th">
+//               <span>Yash1th</span>
+//               <span className='lt-md:block hidden text-xl'>Y1</span>
+//             </Link>
+
+//             <Link to="/Resume" title="Resume">
+//             <span className="lt-md:hidden ml-20">Resume</span>
+//             <RiArticleLine className="lt-md:block hidden text-xl" />
+//           </Link>
+
+//           </div>
+//         </div>
+//       </nav>
+//     </div>
+
+//   );
+// }
+
+// export default Navbar

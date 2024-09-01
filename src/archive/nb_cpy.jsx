@@ -7,17 +7,17 @@ import { RiSunLine, RiMoonLine } from "react-icons/ri";
 
 
 export default function Navbar() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
+  // const toggleDarkMode = () => {
+  //   setIsDarkMode(!isDarkMode);
 
-    if (isDarkMode){
-      document.documentElement.classList.remove('dark');
-    } else {
-      document.documentElement.classList.add('dark');
-    }
-  };
+  //   if (isDarkMode){
+  //     document.documentElement.classList.remove('dark');
+  //   } else {
+  //     document.documentElement.classList.add('dark');
+  //   }
+  // };
 
   return (
   <div>
