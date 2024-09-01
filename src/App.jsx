@@ -5,11 +5,12 @@ import Projects from './pages/projects';
 import Timeline from './pages/timeline';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
-import Landing from './components/landing';
+import Landing from './pages/landing';
 
 export default function App(){
   console.log("App component rendered")
   return (
+    <main className='overflow-x-hidden'>
     <Router>
       <div>
         <Navbar />
@@ -22,5 +23,6 @@ export default function App(){
         </Routes>
       </div>
     </Router>
+    </main>
   );
 }

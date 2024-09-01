@@ -9,12 +9,26 @@ export default {
     },
     extend: {
       colors: {
-        background: '#FFFDF6',
+        background: '#FFFCEE',
+        'font-logo': '#FFB700',
         'font-main': '#000000',
         'font-context': '#515151',
+        nav: 'F5F2E7'
       },
       fontFamily:  {
         inter: ['inter', 'serif'],
+      },
+      fontSize: {
+        '80px': '15px',
+      },
+      letterSpacing: {
+        '1px': '1px',
+      },
+      lineHeight: {
+        normal: 'normal',
+      },
+      padding: {
+        '1.5': '0.375rem',
       },
       display: ['lt-md'],
     },
