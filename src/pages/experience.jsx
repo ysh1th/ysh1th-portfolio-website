@@ -3,8 +3,9 @@ import { EXPERIENCES } from "../Content";
 
 export default function Experience() {
   return (
-    <div className="border-b border-background pb-4 pt-16">
-      <h2 className="my-20 text-center text-4xl">Experience</h2>
+    <div className="mx-auto px-6 pb-14 md:px-36 md:mb-20 max-w-5xl lg:px-9">
+    <div className="border-b border-background pb-4">
+      <h2 className="mb-10 mt-10 text-center text-4xl">Experience</h2>
       <div>
         {EXPERIENCES.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
@@ -28,6 +29,7 @@ export default function Experience() {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 }

@@ -14,19 +14,21 @@ export default function App(){
 
     <div className='min-h-screen overflow-x-hidden antialiased bg-background dark:bg-slate-900 selection:bg-yellow-800 selection:text-bg-background'>
       <div className="absolute top-0 z-[-2] bg-background"></div>
-      <div className="px-6 py-32 mx-auto max-w-3xl">
+      <div className=" lg:py-24">
         <Router>
 
             <Navbar />
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/resume" element={<Resume />} />
+              <Route path="/projects" element={<Projects />} />
+              {/* <Route path="/experience" element={<Experience />} /> */}
             </Routes>
 
         </Router>
-        <Experience />
-        <Projects />
-        <Contact />
+        {/* <Experience /> */}
+        {/* <Projects /> */}
+        {/* <Contact /> */}
       </div>
     </div>
   

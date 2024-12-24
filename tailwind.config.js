@@ -34,7 +34,7 @@ export default {
       display: ['lt-md'],
     },
     screens: {
-      'lt-md': {'max': '767px'},
+      // 'lt-md': {'max': '767px'},
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
