@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { LAND_CONTENT } from "../Content";
 import Profile from '../assets/Profile.png';
+import yashu from '../assets/yashu hyd.jpg';
+// import yashu from '../assets/yashu profile pic.png';
 import Experience from './experience';
 import { div } from 'framer-motion/client';
 
@@ -72,7 +74,7 @@ const TypewriterEffect = () => {
                         duration: 0.5,
                       }}
                       >
-                        |
+                        _
                       </motion.span>
                   </motion.h2>
                 {/* </h2> */}
@@ -86,7 +88,7 @@ const TypewriterEffect = () => {
             </div>
             <div className="w-full flex justify-center items-center lg:w-1/3">
               <div className="flex w-full lg:w-[230px] lg:h-[410px] ">
-                <img src={Profile} alt="Yash1th" className="object-cover hidden lg:block rounded-2xl"/>
+                <img src={yashu} alt="Yash1th" className="object-cover hidden lg:block rounded-2xl"/>
               </div>
             </div>
           </div>
