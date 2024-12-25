@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Projects from './pages/projects';
 import Resume from './pages/resume';
-import Contact from './pages/contact';
+// import Contact from './pages/contact';
 import Landing from './pages/landing';
-import Experience from './pages/experience';
+// import Experience from './pages/experience';
 // import Navbar from './archive/nb_cpy.jsx'
 
 export default function App(){
