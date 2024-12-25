@@ -3,7 +3,7 @@ import { PROJECTS } from "../Content/index";
 
 export default function Projects() {
   return (
-    <div className="px-16 md:py-32">
+    <div className="px-16 py-20 md:py-10">
     <section className="py-5 bg-gray-100">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-20">My Projects</h2>

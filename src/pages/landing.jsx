@@ -9,7 +9,7 @@ import { div } from 'framer-motion/client';
 
 const TypewriterEffect = () => {
   const texts = [
-    'LLM Enthusiast',
+    'Data Enthusiast',
     'Web Developer',
     'Designer',
   ];
@@ -45,7 +45,7 @@ const TypewriterEffect = () => {
   return (
     <div>
     <div className="pt-10 lg:px-16 lg:py-8">
-      <div className="mx-auto px-6 max-w-5xl py-20">
+      <div className="mx-auto px-6 max-w-5xl py-5">
         <div className="border-b border-background pb-4 lg:mb-35">
           <div className="flex flex-wrap justify-between">
             <div className="w-full lg:w-2/3">
@@ -58,7 +58,7 @@ const TypewriterEffect = () => {
                 </h1>
                 {/* <h2 className="pb-7 text-4xl font-extrabold tracking-tight"> */}
                   <motion.h2
-                  className="pb-7 text-4xl font-extrabold tracking-tight"
+                  className="pb-7 text-3xl font-bold tracking-tight"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1 }}
@@ -94,7 +94,7 @@ const TypewriterEffect = () => {
           </div>
         </div>
         {/* Scroll Down Arrow */}
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center mt-14">
           <a href="#next-section" className="text-gray-700 hover:text-gray-500">
             <svg
               className="w-8 h-8 animate-bounce"

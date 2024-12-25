@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
   <div>
-    <nav className='fixed left-0 right-0 z-50 bottom-[5%]'>
+    <nav className='fixed left-0 right-0 z-50 top-[5%]'>
       <div className="mx-auto flex max-w-md items-center justify-center rounded-lg bg-black/5 dark:bg-white/5 py-1.5 lg:py-3 backdrop-blur-lg">
       {/* <div className="mx-auto flex w-full min-h-full items-center justify-center rounded-lg bg-black/5 dark:bg-white/5 py-1.5 backdrop-blur-lg"> */}
         <div className="flex justify-between gap-6">
@@ -40,7 +40,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className='text-bold'>
-              <a href="/" target="_blank" rel="noopener noreferrer">
+              <a href="/" rel="noopener noreferrer">
               {/* <p className='text-font-logo lg:text-xl'>
                 Y
               </p> */}
