@@ -44,7 +44,7 @@ const TypewriterEffect = () => {
 
   return (
     <div>
-    <div className="pt-10 lg:px-16 lg:py-8">
+    <div className="pt-20 lg:pt-10 lg:px-16 lg:py-8">
       <div className="mx-auto px-6 max-w-5xl py-5">
         <div className="border-b border-background pb-4 lg:mb-35">
           <div className="flex flex-wrap justify-between">
