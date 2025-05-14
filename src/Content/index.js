@@ -10,9 +10,25 @@ export const EXPERIENCES = [
     description: `Developed and implemented an automated audit reporting system that significantly enhanced the efficiency of the audit process. This system streamlined the reporting workflow, resulting in faster turnaround times and more accurate reports. By automating key tasks, it reduced the risk of human error in audit reporting by 70%, ensuring higher reliability and consistency in audit results.`,
     technologies: ['Microsoft Power Automate'],
   },
+  {
+    duration: 'January 2025 - Present',
+    role: 'AI Intern',
+    company: 'White Paper IT Alliance',
+    description: `Designed and implemented an avatar-based chatbot using large language models (LLMs) to enhance user engagement through real-time conversational interfaces. Developed a WhatsApp chatbot agent that automated and streamlined customer support workflows, significantly improving response times and reducing manual workload for support teams.`,
+    technologies: ['Python', 'LangChain', 'Text-to-Speech', 'Vector '],
+  }
 ]
 
 export const PROJECTS = [
+  {
+    title: 'PreTrade Analysis Agent',
+    image: preTradeImage,
+    description: `A multi-agent AI system designed to automate pre-market research for retail investors. It orchestrates several specialized agents — including data scraping, sentiment analysis, technical analysis, and strategy recommendation — to collaboratively produce a comprehensive pre-market report. Each agent performs a distinct role, enabling modularity, scalability, and accurate insights tailored to the user's portfolio.`,
+    technologies: ['Python', 'LangChain', 'LangGraph', 'Selenium', 'BeautifulSoup', 'Playwright', ],
+    // demoUrl: 'https://example.com/pretrade-demo',
+    // githubUrl: 'https://github.com/ysh1th/pretrade_analysis', 
+  },
+
   {
     title: 'Intern_buddy',
     image: internBuddyImage,

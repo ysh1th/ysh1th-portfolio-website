@@ -29,16 +29,16 @@ const TypewriterEffect = () => {
       }
 
       if (!isDeleting && currentText === current) {
-        // Pause at the end of the text
+        // pause at end of text
         setTimeout(() => setIsDeleting(true), 1000);
       } else if (isDeleting && currentText === '') {
-        // Move to the next text
+        // move to next text
         setIsDeleting(false);
         setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
       }
-    }, 70); // Adjust the typing speed here
+    }, 70); // adjust typing speed here
 
-    // Clean up the interval on component unmount
+    // clean up interval on component unmount
     return () => clearInterval(interval);
   }, [currentText, isDeleting, textIndex]);
 

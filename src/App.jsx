@@ -12,12 +12,12 @@ export default function App(){
   console.log("App component rendered")
   return (
 
-    <div className='min-h-screen overflow-x-hidden antialiased bg-background dark:bg-slate-900 selection:bg-yellow-800 selection:text-bg-background'>
-      <div className="absolute top-0 z-[-2] bg-background"></div>
+    <div className='w-screen min-h-screen overflow-x-hidden antialiased bg-background dark:bg-slate-900 selection:bg-yellow-500 selection:text-bg-background'>
+      <div className="absolute top-0 left-0 right-0 z-[-2]  h-full"></div>
       <div className=" lg:py-24">
         <Router>
 
-            <Navbar />
+            <Navbar />v
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/resume" element={<Resume />} />
