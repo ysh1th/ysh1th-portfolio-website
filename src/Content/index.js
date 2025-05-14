@@ -4,31 +4,38 @@ export const LAND_CONTENT = `I am an undergraduate computer science engineering 
 
 export const EXPERIENCES = [
   {
+    duration: 'January 2025 - Present',
+    role: 'AI Engineer Intern',
+    company: 'White Paper IT Alliance',
+    description: `Designed and implemented an avatar-based chatbot using large language models (LLMs) to enhance user engagement through real-time conversational interfaces. Developed a WhatsApp chatbot agent that automated and streamlined customer support workflows, significantly improving response times and reducing manual workload for support teams.`,
+    technologies: ['Python', 'LangChain', 'Text-to-Speech', 'Vector Database'],
+  },
+  {
     duration: 'June 2023 - August 2023',
-    role: 'IT Support Engineer',
+    role: 'IT Support Intern',
     company: 'Missan IT Solutions',
     description: `Developed and implemented an automated audit reporting system that significantly enhanced the efficiency of the audit process. This system streamlined the reporting workflow, resulting in faster turnaround times and more accurate reports. By automating key tasks, it reduced the risk of human error in audit reporting by 70%, ensuring higher reliability and consistency in audit results.`,
     technologies: ['Microsoft Power Automate'],
-  },
-  {
-    duration: 'January 2025 - Present',
-    role: 'AI Intern',
-    company: 'White Paper IT Alliance',
-    description: `Designed and implemented an avatar-based chatbot using large language models (LLMs) to enhance user engagement through real-time conversational interfaces. Developed a WhatsApp chatbot agent that automated and streamlined customer support workflows, significantly improving response times and reducing manual workload for support teams.`,
-    technologies: ['Python', 'LangChain', 'Text-to-Speech', 'Vector '],
   }
 ]
 
 export const PROJECTS = [
   {
     title: 'PreTrade Analysis Agent',
-    image: preTradeImage,
-    description: `A multi-agent AI system designed to automate pre-market research for retail investors. It orchestrates several specialized agents — including data scraping, sentiment analysis, technical analysis, and strategy recommendation — to collaboratively produce a comprehensive pre-market report. Each agent performs a distinct role, enabling modularity, scalability, and accurate insights tailored to the user's portfolio.`,
+    image: null,
+    description: `A sequential multi-agent system that automates pre-market research by coordinating specialized agents for data scraping, sentiment analysis, technical evaluation, and strategy recommendations.`,
     technologies: ['Python', 'LangChain', 'LangGraph', 'Selenium', 'BeautifulSoup', 'Playwright', ],
     // demoUrl: 'https://example.com/pretrade-demo',
     // githubUrl: 'https://github.com/ysh1th/pretrade_analysis', 
   },
-
+  {
+    title: 'Sales Analytics Data Pipeline',
+    image: null,
+    description: `An end-to-end ETL pipeline simulating e-commerce analytics with Kafka producers, Spark streaming jobs, PostgreSQL storage, and interactive dashboards via Superset.`,
+    technologies: ['Apache Kafka', 'Apache Spark', 'PostgreSQL', 'Apache Superset'],
+    // demoUrl: 'https://example.com/data-pipeline-demo',
+    githubUrl: 'https://github.com/ysh1th/sales-analytics-etl',
+  },
   {
     title: 'Intern_buddy',
     image: internBuddyImage,
